@@ -1,1 +1,610 @@
-Hello World!
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="rafaeldleon" >
+
+    <title>Encuentro Colombiano de Combinatoria ECCO 2018</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+            
+					 <span class="en"><a href="#top" onclick=$("#menu-close").click(); >ECCO 2018</a></span>
+					 <span class="es"><a href="#top" onclick=$("#menu-close").click();>ECCO 2018</a></span>                 
+            </li>
+            <li id="langbutton" class="menubuttons">
+            
+					 <span class="en"><a href="#" onclick=$("#menu-close").click();>Espa&ntilde;ol</a></span>
+					 <span class="es"><a href="#" onclick=$("#menu-close").click();>English</a></span>                 
+            </li>
+            <li class="menubuttons">
+                <span class="en"><a href="#dates" onclick=$("#menu-close").click();>Dates</a></span>
+					 <span class="es"><a href="#dates" onclick=$("#menu-close").click();>Fechas</a></span>
+            </li>
+            <li class="menubuttons">
+                <span class="en"><a href="#minicourses" onclick=$("#menu-close").click();>Minicourses</a></span>
+					 <span class="es"><a href="#minicourses" onclick=$("#menu-close").click();>Minicursos</a></span>
+            </li>
+            <li class="menubuttons">
+                <span class="en"><a href="#program" onclick=$("#menu-close").click();>Program</a></span>
+					 <span class="es"><a href="#program" onclick=$("#menu-close").click();>Programa</a></span>
+            </li>
+            <li class="menubuttons">
+                <span class="en"><a href="#organizers" onclick=$("#menu-close").click();>Committees</a></span>
+					 <span class="es"><a href="#organizers" onclick=$("#menu-close").click();>Comit&eacute;s</a></span>
+            </li>
+            <li class="menubuttons">
+					 <span class="en"><a href="#localinfo" onclick=$("#menu-close").click();>Local info</a></span>
+					 <span class="es"><a href="#localinfo" onclick=$("#menu-close").click();>Informaci&oacute;n local</a></span>              
+            </li>
+            <li class="menubuttons">
+                <span class="en"><a href="#contact" onclick=$("#menu-close").click();>Contact</a></span>
+					 <span class="es"><a href="#contact" onclick=$("#menu-close").click();>Contacto</a></span>
+            </li>
+            <li class="menubuttons">
+					 <span class="en"><a href="http://www.colombia.travel/en/where-to-go/caribbean/barranquilla" onclick=$("#menu-close").click();>About Barranquilla</a></span>
+					 <span class="es"><a href="http://www.colombia.travel/es/a-donde-ir/caribe/barranquilla" onclick=$("#menu-close").click();>Sobre Barranquilla</a></span>                
+            </li>
+            <li class="menubuttons">
+					 <span class="en"><a href="http://math.sfsu.edu/federico/SFSUColombia/ecco.html" onclick=$("#menu-close").click();>About ECCO</a></span>
+					 <span class="es"><a href="http://math.sfsu.edu/federico/SFSUColombia/ecco.html" onclick=$("#menu-close").click();>Sobre ECCO</a></span>                
+            </li>
+            
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+        
+        
+         <span class="en">
+           <h1 class="cover-heading">6th Encuentro Colombiano de Combinatoria </h1>
+           <h2 class="cover-heading">Combinatorics meets Algebra, Geometry and Optimization - ECCO 2018</h2>
+           <h2 class="cover-heading">Universidad del Norte, Barranquilla, Colombia</h2>
+           <h2 class="cover-heading">June 4 - 15 2018</h2>
+           <a href="#minicourses" class="btn btn-dark btn-lg">Find Out More</a>
+           </span>
+           
+           <span class="es">
+           <h1 class="cover-heading">6to Encuentro Colombiano de Combinatoria </h1>
+           <h2 class="cover-heading">Combinatoria y su interacci&oacute;n con Algebra, Geometr&iacute;a y Optimizaci&oacute;n 2018</h2>
+           <h2 class="cover-heading">Universidad del Norte, Barranquilla, Colombia</h2>
+           <h2 class="cover-heading">Junio 4 - 15 2018</h2>
+           <a href="#minicourses" class="btn btn-dark btn-lg">M&aacute;s informaci&oacute;n</a>
+           </span>
+          
+
+
+
+
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="dates" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                <span class="en"><h2>Information about important dates will be published later</h2></span>
+                <span class="es"><h2>La informaci&oacute;n sobre fechas importantes ser&aacute; publicada m&aacute;s adelante</h2></span>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Services -->
+    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+    <section id="minicourses" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                	  <span class="en">
+           			      <h2>Minicourses</h2>
+           			  </span>
+        				  <span class="es">
+           			      <h2>Minicursos</h2>
+           			  </span>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            	                            
+                            <div class="service-item">
+                                <span>
+                                
+                                <img style="width:150px;height:150px;" alt="Vic Reiner" src="img/vic_reiner.png">
+
+                            </span>
+                                <h4>
+                                    <strong>Vic Reiner</strong>
+                                    (University of Minnesota)
+                                </h4>
+                                <p>Reflection groups and enumeration</p>
+                                <br>
+                                <span class="en"><a href="#" class="btn btn-light">Course webpage</a> </span>
+                                <span class="es"><a href="#" class="btn btn-light">P&aacute;gina del curso</a> </span>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                               <span>
+                                
+                                <img style="width:150px;height:150px;" alt="Rehka Thomas" src="img/rekha_thomas.png">
+
+                            </span>
+                                <h4>
+                                    <strong>Rekha Thomas</strong>
+                                    (University of Washington)
+                                </h4>
+                                <p>Polynomial optimization</p>
+                                <br>
+                                <span class="en"><a href="#" class="btn btn-light">Course webpage</a> </span>
+                                <span class="es"><a href="#" class="btn btn-light">P&aacute;gina del curso</a> </span>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span>
+                                
+                                <img style="width:150px;height:150px;" alt="Lauren Williams" src="img/lauren_williams.png">
+
+                            </span>
+                                <h4>
+                                   <strong>Lauren Williams</strong>
+                                   (University of California Berkeley)
+                                </h4>
+                                <p>Introduction to total positivity and cluster algebras</p>
+                                <span class="en"><a href="#" class="btn btn-light">Course webpage</a> </span>
+                                <span class="es"><a href="#" class="btn btn-light">P&aacute;gina del curso</a> </span>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                 <span>
+                                
+                                <img style="width:150px;height:150px;" alt="G&uuml;nter Ziegler" src="img/gunter_ziegler.png">
+
+                            </span>
+                                <h4>
+                                    <strong>G&uuml;nter Ziegler</strong>
+                                    (Freie Universit&auml;t Berlin)
+                                </h4>
+                                <p>Polytopes - Extremal examples and combinatorial parameters</p>
+                                <span class="en"><a href="#" class="btn btn-light">Course webpage</a> </span>
+                                <span class="es"><a href="#" class="btn btn-light">P&aacute;gina del curso</a> </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Callout -->
+    <a title="By Enrique Nuñez (Own work) [CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3APanoramic_of_Plaza_San_Nicol%C3%A1s.jpg">    
+    <aside class="callout1">
+    </aside>
+    </a>
+   
+
+    <section id="organizers" class="services bg-secondary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                	  <span  class="en"><h2 >Scientific committee</h2> </span>
+						  <span  class="es"><h2 >Comit&eacute; Cient&iacute;fico</h2> </span>
+				
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            	                            
+                            <div class="service-item">
+                                <p><h3><a href="http://www.fields.utoronto.ca/~cbenedet/" target="_blank">Carolina Benedetti</a></h3>
+           								 Fields Institute and York University (Canada)</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            	                            
+                            <div class="service-item">
+                                <p>
+            <h3><a href="https://www.math.washington.edu/~billey/" target="_blank">Sara Billey</a></h3>
+            University of Washington (USA)</p>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 col-sm-6">
+                            	                            
+                            <div class="service-item">
+                                <p>
+            <h3><a href="https://sites.google.com/site/feliper84/" target="_blank">Felipe Rinc&oacute;n</a></h3>
+            University of Oslo (Norway)</p>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 col-sm-6">
+                            	                            
+                            <div class="service-item">
+                                <p>
+            <h3><a href="https://math.berkeley.edu/~bernd/" target="_blank">Bernd Sturmfels</a></h3>
+            University of California Berkeley (USA)</p>
+                            </div>
+                        </div>
+                        
+                        
+                        
+                        
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+            
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                	  <span  class="en"><h2 >Organizing committee</h2> </span>
+							<span  class="es"><h2 >Comit&eacute; Organizador</h2> </span>
+				
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            	                            
+                            <div class="service-item">
+                                <p>
+            <h3><a href="https://sites.google.com/site/bernardouribejongbloed/" target="_blank">Bernardo Uribe (Chair local)</a></h3>
+            Universidad del Norte (Colombia)</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            	                            
+                            <div class="service-item">
+                                <p>
+             <h3><a href="#">Ana Maria Botero (Co-chair)</a></h3>
+            Berlin Mathematical School (Germany)</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            	                            
+                            <div class="service-item">
+                                <p>
+             <h3><a href="http://garsia.math.yorku.ca/~ceballos/" target="_blank">Cesar Ceballos (Co-chair)</a></h3>
+            Universit&auml;t Wien (Austria)</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            	                            
+                            <div class="service-item">
+                                 <p>
+            <h3><a href="http://www.lix.polytechnique.fr/~pilaud/" target="_blank">Vincent Pilaud (Contacto CIMPA)</a></h3>
+            CNRS & École Polytechnique (France)</p>
+            
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                            	                            
+                            <div class="service-item">
+                                <p>
+            <h3><a href="#" target="_blank">Javier de la Cruz Cantillo</a></h3>
+            Universidad del Norte (Colombia)</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            	                            
+                            <div class="service-item">
+                                <p>
+            <h3><a href="http://www.math.uiuc.edu/~lescobar/" target="_blank">Laura Escobar</a></h3>
+            University of Illinois Urbana-Champaign (USA)</p> 
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 col-sm-6">
+                            	                            
+                            <div class="service-item">
+                                <p>
+            <h3><a href="#" target="_blank">Karen Florez Lozano</a></h3>
+            Universidad del Norte (Colombia)</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            	                            
+                            <div class="service-item">
+                                <p>
+            <h3><a href="http://dleon.combinatoria.co/" target="_blank">Rafael S. Gonz&aacute;lez D’Le&oacute;n</a></h3>
+            University of Kentucky (USA)</p>
+                            </div>
+                        </div>
+                        
+                        
+                     
+                    </div>
+                    
+                    <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                            	                            
+                            <div class="service-item">
+                                <p>
+            <h3><a href="http://matematicas.uniandes.edu.co/~ej.leon/index.html" target="_blank">Emerson Le&oacute;n</a></h3>
+            Universidad de los Andes (Colombia)</p>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 col-sm-6">
+                            	                            
+                            <div class="service-item">
+                                <p>
+            <h3><a href="https://sites.google.com/a/g.ucla.edu/ahmorales/" target="_blank">Alejandro Morales</a></h3>
+            UCLA (USA)</p>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col-md-3 col-sm-6">
+                            	                            
+                            <div class="service-item">
+                                <p>
+            <h3><a href="http://www-e.uni-magdeburg.de/sarmient/" target="_blank">Camilo Sarmiento</a></h3>
+            Max Planck Institute for Math in the Sciences (Germany)</p> 
+                            </div>
+                        </div>
+                        
+                        
+                        
+                        <div class="col-md-3 col-sm-6">
+                            	                            
+                            <div class="service-item">
+                                <p><h3><a href="https://people.ricam.oeaw.ac.at/n.villamizar/" target="_blank">Nelly Villamizar</a></h3>
+           							 RICAM (Austria)</p>
+                            </div>
+                        </div>
+                     
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+            
+        </div>
+        <!-- /.container -->
+    </section>
+   
+   
+   
+    <a title="By Univesidad del Norte (Univesidad del Norte) [CC0], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3AEdificio_G_Posterior_UniNorte.jpg">
+	 <aside class="callout2">
+    </aside>
+    </a>
+    <!-- Portfolio -->
+    <section id="program" class="map">
+    
+
+
+<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://docs.google.com/spreadsheets/d/1TBR6qg7SX3c9g8rUkL7ZO8MHZog8bs0OpXm4gd00Heo/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"
+width="100%" height="100%">Loading...</iframe>
+
+    </section>
+
+     <!-- local info -->
+    <section id="localinfo" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                     <span  class="en"><h2 >Local information</h2> </span>
+							<span  class="es"><h2 >Informaci&oacute;n local</h2> </span>
+            </div>
+            <!-- /.row -->
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                <span class="en"><h3>Additional local information will be published later</h3></span>
+                <span class="es"><h3>Informaci&oacute;n local adicional ser&aacute; publicada m&aacute;s adelante</h3></span>
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </section>
+
+   
+       <aside class="call-to-action"></aside>
+       <aside class="call-to-action bg-primary"></aside>
+       <aside class="call-to-action bg-secondary"></aside>
+       <aside class="call-to-action bg-terciary"></aside>      
+    
+    <!-- Call to Action 
+    <aside class="call-to-action bg-terciary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3>The buttons below are impossible to resist.</h3>
+                    <a href="#" class="btn btn-lg btn-light">Click Me!</a>
+                    <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
+                </div>
+            </div>
+        </div>
+    </aside>-->
+
+    <!-- Map -->
+    <section id="map" class="map">
+    
+
+        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/d/embed?mid=1i3VTkkiwyr5We7Z8bEglOxj3QYE" width="640" height="480"></iframe>
+        <br />
+        <small>
+            <a href="https://www.google.com/maps/d/embed?mid=1i3VTkkiwyr5We7Z8bEglOxj3QYE" width="640" height="480"></a>
+        </small>
+        </iframe>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                <span class="en"><h1><strong>Contact</strong></h1></span>
+					 <span class="es"><h1><strong>Contacto</strong></h1></span>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.com">ecco2018@googlegroups.com</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; ECCO 2016</p>
+                </div>
+            </div>
+        </div>
+        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+    </footer>
+
+    <!-- jQuery
+    <script src="js/jquery.js"></script> -->
+    
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	 
+	 <!-- Mathjax -->
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    //#to-top button appears after scrolling
+    var fixed = false;
+    $(document).scroll(function() {
+        if ($(this).scrollTop() > 250) {
+            if (!fixed) {
+                fixed = true;
+                // $('#to-top').css({position:'fixed', display:'block'});
+                $('#to-top').show("slow", function() {
+                    $('#to-top').css({
+                        position: 'fixed',
+                        display: 'block'
+                    });
+                });
+            }
+        } else {
+            if (fixed) {
+                fixed = false;
+                $('#to-top').hide("slow", function() {
+                    $('#to-top').css({
+                        display: 'none'
+                    });
+                });
+            }
+        }
+    });
+    // Disable Google Maps scrolling
+    // See http://stackoverflow.com/a/25904582/1607849
+    // Disable scroll zooming and bind back the click event
+    var onMapMouseleaveHandler = function(event) {
+        var that = $(this);
+        that.on('click', onMapClickHandler);
+        that.off('mouseleave', onMapMouseleaveHandler);
+        that.find('iframe').css("pointer-events", "none");
+    }
+    var onMapClickHandler = function(event) {
+            var that = $(this);
+            // Disable the click handler until the user leaves the map area
+            that.off('click', onMapClickHandler);
+            // Enable scrolling zoom
+            that.find('iframe').css("pointer-events", "auto");
+            // Handle the mouse leave event
+            that.on('mouseleave', onMapMouseleaveHandler);
+        }
+        // Enable map zooming with mouse scroll when the user clicks the map
+    $('.map').on('click', onMapClickHandler);
+    
+    
+	 $('#langbutton').on("click", function() { // bind click event to link
+				if (document.documentElement.lang == "es") 
+  			 	{
+       			document.documentElement.lang="en";
+       			//$("#menu-close").click();
+   			}
+   			else 
+   			{
+     				document.documentElement.lang="es";
+     				//$("#menu-close").click();
+   			}
+   			   
+    				return false;
+    			});    
+    
+    </script>
+
+</body>
+
+</html>
