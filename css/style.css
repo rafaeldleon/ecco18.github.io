@@ -22,7 +22,21 @@ body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-
+.table>tbody>tr>td, 
+.table>tfoot>tr>td, 
+.table>tfoot>tr>th {
+    padding: 1px;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+    vertical-align: middle;
+}
+.table>tbody>tr>th, 
+.table>thead>tr>td, 
+.table>thead>tr>th {
+    padding: 1px;
+    text-align: center;
+}
 
 .menubuttons {
 	font-size: 18px;
