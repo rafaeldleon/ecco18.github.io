@@ -145,8 +145,12 @@ hr.small {
 
 .sidebar-nav > .sidebar-brand {
     height: 55px;
-    font-size: 25px;
+    font-size: 36px;
     line-height: 55px;
+}
+
+.sidebar-nav > .sidebar-brand img {
+      vertical-align: initial;
 }
 
 .sidebar-nav > .sidebar-brand a {
