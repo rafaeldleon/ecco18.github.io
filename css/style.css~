@@ -42,14 +42,27 @@ body {
 	font-size: 18px;
 
 }
+a {
+    color: #CC1126;
+}
 
+hr{
+    border-top-color: #333;
+}
 .bg-primary {
     color: #fff;
     background-color: #07822F;
 }
 .bg-secondary {
-    color: #fff;
+    color: #333;
     background-color: #FBD016;
+}
+
+.bg-secondary a{
+    color: #CC1126;
+}
+.bg-secondary hr{
+    border-top-color: #333;
 }
 
 .bg-terciary {
@@ -57,10 +70,8 @@ body {
     background-color: #CC1126;
 }
 
-.text-alerted {
-    border-radius: 0;
-    color: #333;
-    background-color: rgb(255,255,255);
+.bg-terciary a{
+    color: #FBD016;
 }
 
 .cover-heading {

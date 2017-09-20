@@ -42,14 +42,31 @@ body {
 	font-size: 18px;
 
 }
+a {
+    color: #CC1126;
+}
 
+hr{
+    border-top-color: #333;
+}
 .bg-primary {
     color: #fff;
     background-color: #07822F;
 }
+
+.bg-primary hr{
+    border-top-color: #eee;
+}
 .bg-secondary {
-    color: #fff;
+    color: #333;
     background-color: #FBD016;
+}
+
+.bg-secondary a{
+    color: #CC1126;
+}
+.bg-secondary hr{
+    border-top-color: #333;
 }
 
 .bg-terciary {
@@ -57,6 +74,12 @@ body {
     background-color: #CC1126;
 }
 
+.bg-terciary a{
+    color: #FBD016;
+}
+.bg-terciary hr{
+    border-top-color: #eee;
+}
 .cover-heading {
     color: #fff;
 }
