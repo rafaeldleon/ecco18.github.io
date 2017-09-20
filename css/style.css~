@@ -22,7 +22,21 @@ body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-
+.table>tbody>tr>td, 
+.table>tfoot>tr>td, 
+.table>tfoot>tr>th {
+    padding: 1px;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+    vertical-align: middle;
+}
+.table>tbody>tr>th, 
+.table>thead>tr>td, 
+.table>thead>tr>th {
+    padding: 1px;
+    text-align: center;
+}
 
 .menubuttons {
 	font-size: 18px;
@@ -41,6 +55,12 @@ body {
 .bg-terciary {
     color: #fff;
     background-color: #CC1126;
+}
+
+.text-alerted {
+    border-radius: 0;
+    color: #333;
+    background-color: rgb(255,255,255);
 }
 
 .cover-heading {
@@ -296,3 +316,16 @@ footer {
   bottom: 5px;
   right: 5px;
 }
+
+/*
+* Sponsors
+*/
+.sponsors{
+	position: relative;
+	bottom: 5%;
+	background-color: white;
+   background: linear-gradient(to right, transparent, white, transparent); /* Standard syntax */
+   opacity: 0.7;
+   filter: alpha(opacity=70); /* For IE8 and earlier */
+	overflow:hidden;
+	
