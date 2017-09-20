@@ -53,6 +53,10 @@ hr{
     color: #fff;
     background-color: #07822F;
 }
+
+.bg-primary hr{
+    border-top-color: #eee;
+}
 .bg-secondary {
     color: #333;
     background-color: #FBD016;
@@ -73,7 +77,9 @@ hr{
 .bg-terciary a{
     color: #FBD016;
 }
-
+.bg-terciary hr{
+    border-top-color: #eee;
+}
 .cover-heading {
     color: #fff;
 }
@@ -333,10 +339,10 @@ footer {
 */
 .sponsors{
 	position: relative;
-	bottom: 5%;
+	bottom: 7%;
 	background-color: white;
    background: linear-gradient(to right, transparent, white, transparent); /* Standard syntax */
-   opacity: 0.7;
+   opacity: 0.95;
    filter: alpha(opacity=70); /* For IE8 and earlier */
 	overflow:hidden;
 	
