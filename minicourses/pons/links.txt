@@ -1,0 +1,12 @@
+Documentation in Spanish :
+
+The Sage tutorial : http://doc.sagemath.org/html/es/tutorial/index.html
+A tour of Sage : http://doc.sagemath.org/html/es/a_tour_of_sage/index.html
+
+More tutorials in English :
+
+http://doc.sagemath.org/html/en/thematic_tutorials/index.html
+
+Polytopes :
+
+http://page.mi.fu-berlin.de/labbe/geometry.html
